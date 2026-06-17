@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PrimeSystem_2026; //conecta mi proyecto
 
 namespace bookflow
 {
@@ -52,98 +53,22 @@ namespace bookflow
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRRHH_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_MouseEnter(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void button2_MouseLeave(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button4_MouseLeave(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button4_MouseEnter(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button3_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button3_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnProveedores_MouseLeave(object sender, EventArgs e)
-        {
-    
-        }
-
-        private void btnProveedores_MouseEnter(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btnRRHH_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnRRHH_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnEstadoContable_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnEstadoContable_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void panelContenido_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void panelContenido_MouseLeave(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btnVentas(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void btnLibros(object sender, EventArgs e)
         {
+            //aca va mi diseño we 
+            //llamo a libros
+            this.panelPrincipal.Controls.Clear();
+
+            //  ¡AHORA SÍ LLAMAS A TU DISEÑO!
+            Libros pantallaArticulos = new Libros();
+
+            pantallaArticulos.TopLevel = false;
+            pantallaArticulos.FormBorderStyle = FormBorderStyle.None;
+            pantallaArticulos.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaArticulos);
+            pantallaArticulos.Show();
 
         }
 
@@ -160,6 +85,53 @@ namespace bookflow
         private void btnClientes_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRRHH_Click(object sender, EventArgs e)
+        {
+            //llamo a rrhh 
+            this.panelPrincipal.Controls.Clear();
+
+            RRHH pantallaRRHH = new RRHH();
+
+            pantallaRRHH.TopLevel = false;
+
+            pantallaRRHH.FormBorderStyle = FormBorderStyle.None;
+            pantallaRRHH.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaRRHH);
+            pantallaRRHH.Show();
+
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            this.panelPrincipal.Controls.Clear();
+
+            Proveedor pantallaproveedor = new Proveedor();
+            pantallaproveedor.TopLevel = false;
+
+            pantallaproveedor.FormBorderStyle = FormBorderStyle.None;
+            pantallaproveedor.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaproveedor);
+            pantallaproveedor.Show();
+        
+        }
+
+        private void btnEstadoContable_Click(object sender, EventArgs e)
+        {
+            this.panelPrincipal.Controls.Clear();
+
+            EstadoContable pantallaEstadoContable = new EstadoContable();
+
+            pantallaEstadoContable.TopLevel = false;
+
+            pantallaEstadoContable.FormBorderStyle = FormBorderStyle.None;
+            pantallaEstadoContable.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaEstadoContable);
+            pantallaEstadoContable.Show();
         }
     }
 }

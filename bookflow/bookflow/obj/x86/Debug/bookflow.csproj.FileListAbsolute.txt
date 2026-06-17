@@ -21,3 +21,18 @@ C:\Users\Mila\OneDrive\Documentos\Visual Studio 2010\Projects\bookflow\bookflow\
 C:\Users\Mila\OneDrive\Documentos\Visual Studio 2010\Projects\bookflow\bookflow\obj\x86\Debug\bookflow.pdb
 C:\Users\Mila\OneDrive\Documentos\Visual Studio 2010\Projects\bookflow\bookflow\bin\Debug\bookflow.pdb
 C:\Users\Mila\OneDrive\Documentos\Visual Studio 2010\Projects\bookflow\bookflow\obj\x86\Debug\bookflow.csprojResolveAssemblyReference.cache
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.exe
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.pdb
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\bin\Debug\bookflow.exe
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\bin\Debug\bookflow.pdb
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.csprojResolveAssemblyReference.cache
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.Clientes.resources
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.Form1.resources
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.panelContenido.resources
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.Properties.Resources.resources
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.ventas.resources
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.csproj.GenerateResource.Cache
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\bin\Debug\PrimeSystem_2026.exe
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\bin\Debug\PrimeSystem_2026.pdb
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\PrimeSystem_2026.Libros.resources
+C:\Users\CONECTAR IGUALDAD\OneDrive\Documentos\GitHub\PrimeSystems\bookflow\bookflow\obj\x86\Debug\bookflow.LibrosBook.resources

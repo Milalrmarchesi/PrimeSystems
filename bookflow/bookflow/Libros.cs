@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace bookflow
 {
-    public partial class Libros : Form
+    public partial class LibrosBook : Form
     {
-        public Libros()
+        public LibrosBook()
         {
             InitializeComponent();
         }
@@ -97,6 +97,11 @@ namespace bookflow
                 txtEditorial.Text = fila.Cells[4].Value.ToString();
                 txtPrecio.Text = fila.Cells[5].Value.ToString();
             }
+        }
+
+        private void Libros_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

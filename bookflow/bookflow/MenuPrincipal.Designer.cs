@@ -51,9 +51,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(436, 9);
+            this.label1.Location = new System.Drawing.Point(291, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(315, 32);
+            this.label1.Size = new System.Drawing.Size(208, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bienvenido al sistema";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -61,9 +62,11 @@
             // btnClientes
             // 
             this.btnClientes.BackColor = System.Drawing.Color.White;
-            this.btnClientes.Location = new System.Drawing.Point(0, 119);
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.Location = new System.Drawing.Point(23, 77);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(237, 41);
+            this.btnClientes.Size = new System.Drawing.Size(158, 27);
             this.btnClientes.TabIndex = 1;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.UseVisualStyleBackColor = false;
@@ -72,27 +75,26 @@
             // btnVentas_Click
             // 
             this.btnVentas_Click.BackColor = System.Drawing.Color.White;
-            this.btnVentas_Click.Location = new System.Drawing.Point(0, 198);
+            this.btnVentas_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVentas_Click.Location = new System.Drawing.Point(23, 129);
+            this.btnVentas_Click.Margin = new System.Windows.Forms.Padding(2);
             this.btnVentas_Click.Name = "btnVentas_Click";
-            this.btnVentas_Click.Size = new System.Drawing.Size(237, 41);
+            this.btnVentas_Click.Size = new System.Drawing.Size(158, 27);
             this.btnVentas_Click.TabIndex = 2;
             this.btnVentas_Click.Text = "Ventas";
             this.btnVentas_Click.UseVisualStyleBackColor = false;
-            this.btnVentas_Click.Click += new System.EventHandler(this.btnVentas);
-            this.btnVentas_Click.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
-            this.btnVentas_Click.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
             // 
             // btnUsuarios_Click
             // 
-            this.btnUsuarios_Click.Location = new System.Drawing.Point(0, 352);
+            this.btnUsuarios_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios_Click.Location = new System.Drawing.Point(23, 229);
+            this.btnUsuarios_Click.Margin = new System.Windows.Forms.Padding(2);
             this.btnUsuarios_Click.Name = "btnUsuarios_Click";
-            this.btnUsuarios_Click.Size = new System.Drawing.Size(240, 41);
+            this.btnUsuarios_Click.Size = new System.Drawing.Size(160, 27);
             this.btnUsuarios_Click.TabIndex = 3;
             this.btnUsuarios_Click.Text = "Usuarios";
             this.btnUsuarios_Click.UseVisualStyleBackColor = true;
             this.btnUsuarios_Click.Click += new System.EventHandler(this.btnUsuarios);
-            this.btnUsuarios_Click.MouseEnter += new System.EventHandler(this.button3_MouseEnter);
-            this.btnUsuarios_Click.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
             // 
             // panelMenu
             // 
@@ -107,63 +109,68 @@
             this.panelMenu.Controls.Add(this.btnClientes);
             this.panelMenu.Controls.Add(this.btnUsuarios_Click);
             this.panelMenu.Controls.Add(this.btnVentas_Click);
-            this.panelMenu.Location = new System.Drawing.Point(-3, 1);
+            this.panelMenu.Location = new System.Drawing.Point(-2, 1);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(237, 727);
+            this.panelMenu.Size = new System.Drawing.Size(203, 498);
             this.panelMenu.TabIndex = 4;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
             // btnCerrarSesion
             // 
-            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 678);
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesion.Location = new System.Drawing.Point(23, 441);
+            this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(237, 41);
+            this.btnCerrarSesion.Size = new System.Drawing.Size(158, 27);
             this.btnCerrarSesion.TabIndex = 10;
             this.btnCerrarSesion.Text = "Cerrar Sesion";
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
             // 
             // btnEstadoContable
             // 
-            this.btnEstadoContable.Location = new System.Drawing.Point(0, 591);
+            this.btnEstadoContable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstadoContable.Location = new System.Drawing.Point(23, 384);
+            this.btnEstadoContable.Margin = new System.Windows.Forms.Padding(2);
             this.btnEstadoContable.Name = "btnEstadoContable";
-            this.btnEstadoContable.Size = new System.Drawing.Size(237, 41);
+            this.btnEstadoContable.Size = new System.Drawing.Size(158, 27);
             this.btnEstadoContable.TabIndex = 9;
             this.btnEstadoContable.Text = "Estado Contable";
             this.btnEstadoContable.UseVisualStyleBackColor = true;
-            this.btnEstadoContable.Click += new System.EventHandler(this.button5_Click);
-            this.btnEstadoContable.MouseEnter += new System.EventHandler(this.btnEstadoContable_MouseEnter);
-            this.btnEstadoContable.MouseLeave += new System.EventHandler(this.btnEstadoContable_MouseLeave);
+            this.btnEstadoContable.Click += new System.EventHandler(this.btnEstadoContable_Click);
             // 
             // btnRRHH
             // 
-            this.btnRRHH.Location = new System.Drawing.Point(0, 517);
+            this.btnRRHH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRRHH.Location = new System.Drawing.Point(23, 336);
+            this.btnRRHH.Margin = new System.Windows.Forms.Padding(2);
             this.btnRRHH.Name = "btnRRHH";
-            this.btnRRHH.Size = new System.Drawing.Size(237, 41);
+            this.btnRRHH.Size = new System.Drawing.Size(158, 27);
             this.btnRRHH.TabIndex = 8;
             this.btnRRHH.Text = "RRHH";
             this.btnRRHH.UseVisualStyleBackColor = true;
             this.btnRRHH.Click += new System.EventHandler(this.btnRRHH_Click);
-            this.btnRRHH.MouseEnter += new System.EventHandler(this.btnRRHH_MouseEnter);
-            this.btnRRHH.MouseLeave += new System.EventHandler(this.btnRRHH_MouseLeave);
             // 
             // btnProveedores
             // 
-            this.btnProveedores.Location = new System.Drawing.Point(0, 427);
+            this.btnProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProveedores.Location = new System.Drawing.Point(23, 278);
+            this.btnProveedores.Margin = new System.Windows.Forms.Padding(2);
             this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(237, 45);
+            this.btnProveedores.Size = new System.Drawing.Size(158, 29);
             this.btnProveedores.TabIndex = 7;
             this.btnProveedores.Text = "Proveedores";
             this.btnProveedores.UseVisualStyleBackColor = true;
-            this.btnProveedores.MouseEnter += new System.EventHandler(this.btnProveedores_MouseEnter);
-            this.btnProveedores.MouseLeave += new System.EventHandler(this.btnProveedores_MouseLeave);
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label2.Location = new System.Drawing.Point(74, 41);
+            this.label2.Location = new System.Drawing.Point(49, 27);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 20);
+            this.label2.Size = new System.Drawing.Size(98, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Sistema de Librería";
             // 
@@ -172,33 +179,34 @@
             this.BookFlow.AutoSize = true;
             this.BookFlow.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BookFlow.ForeColor = System.Drawing.Color.Green;
-            this.BookFlow.Location = new System.Drawing.Point(3, 0);
+            this.BookFlow.Location = new System.Drawing.Point(2, 0);
+            this.BookFlow.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.BookFlow.Name = "BookFlow";
-            this.BookFlow.Size = new System.Drawing.Size(198, 46);
+            this.BookFlow.Size = new System.Drawing.Size(134, 31);
             this.BookFlow.TabIndex = 5;
             this.BookFlow.Text = "BookFlow";
-            this.BookFlow.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnLibros_Click
             // 
             this.btnLibros_Click.BackColor = System.Drawing.Color.White;
+            this.btnLibros_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLibros_Click.ForeColor = System.Drawing.Color.Black;
-            this.btnLibros_Click.Location = new System.Drawing.Point(0, 274);
+            this.btnLibros_Click.Location = new System.Drawing.Point(23, 178);
+            this.btnLibros_Click.Margin = new System.Windows.Forms.Padding(2);
             this.btnLibros_Click.Name = "btnLibros_Click";
-            this.btnLibros_Click.Size = new System.Drawing.Size(237, 41);
+            this.btnLibros_Click.Size = new System.Drawing.Size(158, 27);
             this.btnLibros_Click.TabIndex = 4;
             this.btnLibros_Click.Text = "Libros";
             this.btnLibros_Click.UseVisualStyleBackColor = false;
             this.btnLibros_Click.Click += new System.EventHandler(this.btnLibros);
-            this.btnLibros_Click.MouseEnter += new System.EventHandler(this.button4_MouseEnter);
-            this.btnLibros_Click.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
             // 
             // panelPrincipal
             // 
             this.panelPrincipal.BackgroundImage = global::bookflow.Properties.Resources.ChatGPT_Image_12_jun_2026__04_24_27_p_m_;
-            this.panelPrincipal.Location = new System.Drawing.Point(233, 1);
+            this.panelPrincipal.Location = new System.Drawing.Point(199, 1);
+            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(2);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(974, 719);
+            this.panelPrincipal.Size = new System.Drawing.Size(764, 523);
             this.panelPrincipal.TabIndex = 5;
             this.panelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
             // 
@@ -210,21 +218,20 @@
             // 
             // panelContenido
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
-            this.ClientSize = new System.Drawing.Size(1200, 720);
+            this.ClientSize = new System.Drawing.Size(974, 508);
             this.Controls.Add(this.panelPrincipal);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "panelContenido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
-            this.MouseEnter += new System.EventHandler(this.panelContenido_MouseEnter);
-            this.MouseLeave += new System.EventHandler(this.panelContenido_MouseLeave);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);
