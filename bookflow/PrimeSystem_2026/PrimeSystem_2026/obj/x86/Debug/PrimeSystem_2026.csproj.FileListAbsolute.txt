@@ -1,0 +1,12 @@
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\bin\Debug\PrimeSystem_2026.exe
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\bin\Debug\PrimeSystem_2026.pdb
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.EstadoContable.resources
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.Form1.resources
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.Properties.Resources.resources
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.Proveedor.resources
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.RRHH.resources
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.csproj.GenerateResource.Cache
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.exe
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.pdb
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.csprojResolveAssemblyReference.cache
+C:\POO2026\PrimeSystem_2026\PrimeSystem_2026\obj\x86\Debug\PrimeSystem_2026.Libros.resources
