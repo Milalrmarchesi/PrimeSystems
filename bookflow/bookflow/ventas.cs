@@ -14,6 +14,13 @@ namespace bookflow
         public ventas()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Normal;
+            this.Size = new Size(900, 550);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -26,6 +33,11 @@ namespace bookflow
             Clientes ventana = new Clientes();
             ventana.Show();
             this.Hide();
+        }
+
+        private void ventas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using PrimeSystem_2026; //conecta mi proyecto
+
 
 namespace bookflow
 {
@@ -15,6 +15,15 @@ namespace bookflow
         public panelContenido()
         {
             InitializeComponent();
+
+            // Esto hace que todas tengan el mismo tamaño cuando lo inicias
+
+            this.WindowState = FormWindowState.Normal;
+            this.Size = new Size(900, 550);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,7 +54,7 @@ namespace bookflow
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-
+            //lblUsuario.Text = "Usuario: admin";
         }
 
         private void panelPrincipal_Paint(object sender, PaintEventArgs e)
@@ -60,8 +69,8 @@ namespace bookflow
             //llamo a libros
             this.panelPrincipal.Controls.Clear();
 
-            //  ¡AHORA SÍ LLAMAS A TU DISEÑO!
-            Libros pantallaArticulos = new Libros();
+
+            LibrosBook pantallaArticulos = new LibrosBook();
 
             pantallaArticulos.TopLevel = false;
             pantallaArticulos.FormBorderStyle = FormBorderStyle.None;
@@ -74,7 +83,16 @@ namespace bookflow
 
         private void btnUsuarios(object sender, EventArgs e)
         {
+            this.panelPrincipal.Controls.Clear();
 
+            Usuarios pantallaUsuarios = new Usuarios();
+
+            pantallaUsuarios.TopLevel = false;
+            pantallaUsuarios.FormBorderStyle = FormBorderStyle.None;
+            pantallaUsuarios.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaUsuarios);
+            pantallaUsuarios.Show();
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
@@ -84,7 +102,16 @@ namespace bookflow
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
+            this.panelPrincipal.Controls.Clear();
 
+            Clientes pantallaClientes = new Clientes();
+
+            pantallaClientes.TopLevel = false;
+            pantallaClientes.FormBorderStyle = FormBorderStyle.None;
+            pantallaClientes.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaClientes);
+            pantallaClientes.Show();
         }
 
         private void btnRRHH_Click(object sender, EventArgs e)
@@ -108,7 +135,7 @@ namespace bookflow
         {
             this.panelPrincipal.Controls.Clear();
 
-            Proveedor pantallaproveedor = new Proveedor();
+            Provedores pantallaproveedor = new Provedores();
             pantallaproveedor.TopLevel = false;
 
             pantallaproveedor.FormBorderStyle = FormBorderStyle.None;
@@ -133,5 +160,49 @@ namespace bookflow
             this.panelPrincipal.Controls.Add(pantallaEstadoContable);
             pantallaEstadoContable.Show();
         }
-    }
-}
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+
+            this.panelPrincipal.Controls.Clear();
+
+            CerrarSesion pantallaVentas = new CerrarSesion();
+
+            pantallaVentas.TopLevel = false;
+            pantallaVentas.FormBorderStyle = FormBorderStyle.None;
+            pantallaVentas.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaVentas);
+            pantallaVentas.Show();
+
+            DialogResult respuesta = MessageBox.Show(
+                    "¿Desea cerrar sesión?",
+                    "Cerrar sesión",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+            if (respuesta == DialogResult.Yes)
+                {
+                    Form1 login = new Form1();
+                    login.Show();
+                    this.Close();
+                 }
+          }
+
+        private void btnVentas_Click_Click(object sender, EventArgs e)
+        {
+            this.panelPrincipal.Controls.Clear();
+
+            ventas pantallaVentas = new ventas();
+
+            pantallaVentas.TopLevel = false;
+            pantallaVentas.FormBorderStyle = FormBorderStyle.None;
+            pantallaVentas.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaVentas);
+            pantallaVentas.Show();
+        }
+
+      }
+   }
+

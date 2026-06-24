@@ -95,10 +95,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(998, 633);
+            this.BackgroundImage = global::bookflow.Properties.Resources.ChatGPT_Image_12_jun_2026__04_24_27_p_m_;
+            this.ClientSize = new System.Drawing.Size(1230, 633);
             this.Controls.Add(this.panel1);
             this.Name = "ventas";
             this.Text = "ventas";
+            this.Load += new System.EventHandler(this.ventas_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

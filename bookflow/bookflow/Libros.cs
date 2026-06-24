@@ -14,6 +14,13 @@ namespace bookflow
         public LibrosBook()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Normal;
+            this.Size = new Size(900, 550);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
         }
 
         private void label1_Click(object sender, EventArgs e)

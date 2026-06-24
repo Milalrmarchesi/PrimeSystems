@@ -14,6 +14,13 @@ namespace PrimeSystem_2026
         public Libros()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Normal;
+            this.Size = new Size(900, 550);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -37,6 +44,11 @@ namespace PrimeSystem_2026
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Libros_Load(object sender, EventArgs e)
         {
 
         }
