@@ -78,6 +78,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor.Designer.cs">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RRHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RRHH.Designer.cs">
+      <DependentUpon>RRHH.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Proveedor.resx">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RRHH.resx">
+      <DependentUpon>RRHH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ventas.resx">
       <DependentUpon>ventas.cs</DependentUpon>
     </EmbeddedResource>

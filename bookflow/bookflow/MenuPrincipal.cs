@@ -43,11 +43,6 @@ namespace bookflow
 
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void panelPrincipal_Paint(object sender, PaintEventArgs e)
         {
 
@@ -84,7 +79,17 @@ namespace bookflow
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
+            this.panelPrincipal.Controls.Clear();
 
+            Clientes pantallaclientes = new Clientes();
+
+            pantallaclientes.TopLevel = false;
+
+            pantallaclientes.FormBorderStyle = FormBorderStyle.None;
+            pantallaclientes.Dock = DockStyle.Fill;
+
+            this.panelPrincipal.Controls.Add(pantallaclientes);
+            pantallaclientes.Show();
         }
 
         private void btnRRHH_Click(object sender, EventArgs e)
@@ -132,6 +137,8 @@ namespace bookflow
 
             this.panelPrincipal.Controls.Add(pantallaEstadoContable);
             pantallaEstadoContable.Show();
+        
+       
         }
     }
 }
