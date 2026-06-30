@@ -21,11 +21,12 @@ namespace bookflow
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
         }
-        }
+
 
         private void Provedores_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }

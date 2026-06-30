@@ -58,6 +58,7 @@
     <Compile Include="CerrarSesion.Designer.cs">
       <DependentUpon>CerrarSesion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClaseConexion.cs" />
     <Compile Include="Clientes.cs">
       <SubType>Form</SubType>
     </Compile>

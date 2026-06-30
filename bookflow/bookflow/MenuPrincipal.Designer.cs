@@ -193,7 +193,6 @@
             // panelPrincipal
             // 
             this.panelPrincipal.BackgroundImage = global::bookflow.Properties.Resources.ChatGPT_Image_12_jun_2026__04_24_27_p_m_;
-            this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelPrincipal.Location = new System.Drawing.Point(274, 0);
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(1187, 782);
